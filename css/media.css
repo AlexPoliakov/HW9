@@ -1,0 +1,500 @@
+@media (max-width:958px) {
+
+    .none {
+        display: none;
+    }
+
+}
+
+
+@media (max-width:900px) {
+
+    .recent {
+        margin-right: 0;
+    }
+
+    .ups {
+        display: none;
+    }
+
+    .recent {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
+@media (max-width:850px) {
+
+    .navi {
+        float: left;
+    }
+
+    .ping, .st {
+        font-size: 24px;
+    }
+
+    .st {
+        float: left;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+
+    .readme {
+        display: none;
+    }
+
+    .more {
+        display: block;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .designed {
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width:820px){
+
+    h3 {
+        font-size: 24px;
+        line-height: 2;
+    }
+
+    .text2 {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .read {
+        font-size: 17px;
+    }
+
+    .musik, .musik1 {
+        background-position: -1px -4px;
+    }
+
+    .read {
+        margin-left: 74%;
+    }
+
+    .container1 {
+        margin-right: 0;
+        margin-left: 6.8%;
+    }
+
+}
+
+
+@media (max-width:800px) {
+
+    .navi {
+        margin-top: 31px;
+        margin-left: 0;
+    }
+    .logo {
+        margin-top: 34px;
+    }
+
+    .head {
+        max-height: 758px;
+    }
+
+    .iph {
+        margin-top: 204px;
+        margin: 204px -100%;
+        padding: 0 100%;
+    }
+
+    .lorem {
+        margin-left: 3.1%;
+        margin-top: 15.2%;
+        max-height: 150px;
+    }
+
+    h1 {
+
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 2.6;
+    }
+
+    .phone {
+        margin-right: 21.4%;
+        margin-top: -547px;
+    }
+
+    #phone2 {
+        margin-right: -141.97%;
+        margin-top: -116.8%;
+        overflow: hidden;
+    }
+
+    .battons {
+        margin-top: -167px;
+        margin-right: 104px;
+    }
+
+    .company {
+        background-image: url(../img/logos7.png);
+    }
+
+    .bg-pure {
+        height: 342px;
+    }
+
+    .none1 {
+        display: none;
+    }
+
+    .news_logo, .copy, .not, .head_full {
+        display: none;
+    }
+
+    .head_col_1, .head_col_2, .head_col_3 {
+        display: block;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .col_3 {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .centr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .battons2 {
+        margin-top: 51px;
+        margin-left: 16.3%;
+    }
+}
+
+
+@media (max-width:760px) {
+
+    .bg-pure {
+        height: 600px;
+    }
+
+    .container1 {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .container2 {
+        max-width: 100%;
+        margin-top: 1px;
+        margin-left: 0;
+
+    }
+
+    .container3 {
+        max-width: 100%;
+        margin-top: 1px;
+        margin-left: 0;
+    }
+
+    .none1 {
+        display: block;
+    }
+
+    .bg-white {
+        height: 1020px;
+    }
+
+    .start {
+        width: 97%;
+        left: 3%;
+    }
+
+    .recent {
+        width: 90%;
+    }
+
+    .more {
+        margin-right: 20%;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .st {
+        margin-top: 32px;
+    }
+
+    .logotip {
+        height: 233px;
+    }
+    .company {
+        background-image: url(../img/logos4.png);
+    }
+
+    .news {
+        height: 670px;
+    }
+
+    .col_1, .col_2, .col_3 {
+        width: 100%;
+    }
+
+    .col_3 {
+        margin-top: 80px;
+    }
+
+    .col_1, .col_2 {
+        margin-top: 65px;
+    }
+
+    .designed {
+        margin-top: 18px;
+        text-align: center;
+    }
+
+    .navi__item {
+        padding-right: 3.9%;
+    }
+
+    .navi-footer {
+        text-align: center;
+    }
+}
+
+
+@media (max-width:700px) {
+
+    .logo {
+        margin-left: 0;
+        margin-top: 47px;
+        text-align: center;
+    }
+
+    .navi, .menu, .menu__iton {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    #home {
+        border-bottom: none;
+    }
+
+    .navi {
+        position: relative;
+        min-height: 40px;
+        text-align: center;
+    }
+
+    .navi .menu {
+        width: 245px;
+        padding: 30px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .navi .menu__iton {
+        display: none;
+        margin: 0;
+    }
+
+    .navi .menu__iton-first {
+        display: block;
+    }
+
+    .navi .menu__link,
+    .navi #home {
+        padding: 4px 0 2px 0;
+
+    }
+
+    .menu:hover .menu__iton {
+        display: block;
+        background: #3c2f44;
+        opacity: 0.902;
+        text-align: center;
+        border: 1px solid #0d151b;
+        box-sizing: border-box;
+        border-bottom: 4px solid rgba(0, 0, 0, .01);
+        z-index: 900;
+        margin-top: -1px;
+    }
+
+
+    .menu__iton-first {
+        border-radius: 7px 7px 0 0;
+        box-sizing: border-box;
+    }
+
+    .menu__iton-last {
+        border-radius: 0 0 7px 7px;
+    }
+
+    .navi .menu__iton:hover {
+        background: #2b2231;
+        opacity: 0.902;
+        border-bottom: 4px solid #edbfff;
+    }
+
+    .navi .menu {
+        left: 50%;
+        margin-left: -127px;
+    }
+
+}
+
+
+@media (max-width:660px) {
+
+    .head {
+        max-height: 520px;
+    }
+
+    .phone {
+        zoom: 0.69;
+        margin-top: -582px;
+        margin-right: 22.45%;
+    }
+
+    .iph {
+        height: 246px;
+        margin-top: 176px;
+    }
+
+    .lorem {
+        max-width: 50%;
+        float: left;
+        max-height: 232px;
+        margin-top: 102px;
+    }
+
+    .text1 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    .battons {
+        margin-top: -181px;
+        margin-right: 153px;
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:500px) {
+
+    .battons2 {
+        margin-left: 35%;
+    }
+
+}
+
+
+@media (max-width:470px) {
+
+    .navi-footer {
+        display: none;
+    }
+
+    .designed {
+        margin-top: 40px;
+    }
+
+
+    .phone {
+        display: none;
+    }
+
+    .lorem {
+
+        max-width: 100%;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .battons {
+
+        margin-right: 57px;
+    }
+
+    .battons2 {
+        margin-top: 90px;
+    }
+
+    .nonn {
+
+        display: none;
+    }
+
+    .iph {
+        background: none;
+    }
+
+    .recent {
+        width: 100%;
+    }
+
+    .more {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width:460px) {
+
+    .none2 {
+        display: none;
+    }
+}
+
+
+@media (max-width:444px) {
+
+    .st {
+
+        margin-top: 5px;
+    }
+}
+
+
+@media (max-width:400px) {
+
+    .logotip {
+        height: 422px;
+    }
+
+    .company {
+        background-image: url(../img/logos3.png);
+    }
+
+    .news {
+        display: none;
+    }
+}

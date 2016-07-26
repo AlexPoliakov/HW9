@@ -1,0 +1,207 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'league_gothicregular', Tahoma, sans-serif;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.box {
+    margin: 0 auto;
+    height: auto;
+    max-width: 960px;
+}
+
+.centr {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.head {
+    z-index: 160;
+    overflow: hidden;
+    position: relative;
+    background: url(../img/backh.png) center no-repeat;
+    padding: 0 100%;
+    margin: 0 -100%;
+    max-height: 35.71%;
+}
+
+.logo {
+    float: left;
+    font-size: 2.9em;
+    line-height: 0.703;
+    text-align: left;
+    z-index: 12;
+    margin-top: 46px;
+    width: 100%;
+}
+
+.logo__ping {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.logo__er {
+    background: -webkit-linear-gradient(top, rgba(116,80,131,1) 0%,
+    rgba(105,73,118,1) 23%,rgba(65,47,74,1) 74%,rgba(51,38,58,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.navi {
+    display: block;
+    float: right;
+    margin-top: 41px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu, .menu__iton, .menu__iton-first {
+    display: inline-block;
+}
+
+.menu li a{
+    display: block;
+    font-size: 24px;
+    line-height: 1.405;
+    padding-left: 43px;
+    z-index: 150;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+#home {
+    padding: 0 9px;
+    border-bottom: 3px solid #edbfff;
+}
+
+.iph {
+    max-width: 100%;
+    margin: 170px -100%;
+    padding: 0 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 248px;
+}
+
+.lorem {
+    max-width: 52.1%;
+    float: left;
+    max-height: 232px;
+    margin-top: 93px;
+    position: relative;
+}
+
+h1 {
+    text-align: left;
+    font-weight: normal;
+    font-size: 58px;
+    color: rgb(254, 254, 254);
+    line-height: 0.6;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    z-index: 156;
+}
+
+h2 {
+    text-align: left;
+    font-size: 32px;
+    color: #bf9cce;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.text1 {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.34;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(15, 21, 24, 0.004);
+    font-size: 18px;
+    letter-spacing: normal;
+    margin-top: -8px;
+}
+
+.phone {
+    float: right;
+    width: 131px;
+    height: 265px;
+    background-image: url(../img/iPhone1r.png);
+    background-repeat: no-repeat;
+    background-position: 9px 10px;
+    opacity: 1;
+    margin-top: -506px;
+    margin-right: 213px;
+    /*-webkit-filter: blur(2px);*/
+}
+
+#phone2 {
+    float: right;
+    width: 250px;
+    height: 498px;
+    margin-right: -186px;
+    margin-top: -151px;
+    z-index: 600;
+    background-image: url(../img/iPhone2.png);
+    background-repeat: no-repeat;
+    background-position: 10px 72px;
+}
+
+.battons {
+    float: right;
+    max-width: 120px;
+    max-height: 25px;
+    margin-top: -75px;
+    margin-right: 163px;
+}
+
+.batt1 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #4d4b57;
+    border-radius: 50%;
+    opacity: 0.8;
+    box-sizing: border-box;
+}
+
+.btt {
+    padding: 0 2px;
+}
+
+.batt1:hover{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #e2e2e2;
+    background-position: center center;
+    border: 2px solid #4d4b57;
+    transition: 0.3s;
+}
+
+.batt1:focus{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #e2e2e2;
+    background-position: center center;
+    border: 2px solid #4d4b57;
+}
